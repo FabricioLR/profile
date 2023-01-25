@@ -37,6 +37,9 @@
         padding-top: 10px;
         margin: 0px 10px 0px 10px;
     }
+    html #freecodecamp > ul li{
+        font-size: 15px;
+    }
 }
 
 *{
