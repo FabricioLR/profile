@@ -20,6 +20,7 @@
 .header > div:last-child{
     display: flex;
     align-items: center;
+    margin-left: 4px;
 }
 .github{
     margin-right: 5px;

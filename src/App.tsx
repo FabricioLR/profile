@@ -123,8 +123,8 @@ function App() {
             <p>Free Code Camp</p>
             <p>Organização sem fins lucrativos que oferece cursos gratuitos em sua plataforma web. O mais completo bootcamp online.</p>
             <ul>
-              <li><span><a href="">Responsive Web Design Certification</a></span></li>
-              <li><span><a href="">JavaScript Algorithms and Data Structures</a></span></li>
+              <li><span><a href="">Responsive Web Design</a></span></li>
+              <li><span><a href="">JavaScript Algorithms</a></span></li>
               <li><span><a href="">Back End Development and APIs</a></span></li>
               <li><span><a href="">Front End Development Libraries</a></span></li>
               <li><span><a href="">Quality Assurance</a></span></li>

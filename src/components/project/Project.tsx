@@ -15,10 +15,10 @@ function Project(props: ProjectProps){
                     <p>{props.project.title}</p>
                 </div>
                 <div>
-                    <AiFillGithub className={style.github} size={25} onClick={() => window.location.href = props.project.linkGF}/>
+                    <AiFillGithub className={style.github} size={23} onClick={() => window.location.href = props.project.linkGF}/>
                     {
                         props.project.linkS != undefined ?
-                            <BiLinkExternal className={style.externalLink} size={25} onClick={() => window.location.href = String(props.project.linkS)}/>
+                            <BiLinkExternal className={style.externalLink} size={23} onClick={() => window.location.href = String(props.project.linkS)}/>
                         :
                             null
                     }
