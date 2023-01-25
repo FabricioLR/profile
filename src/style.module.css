@@ -1,0 +1,188 @@
+@media (max-width: 950px) {
+    html #contactinfo div:first-child{
+        width: 50%;
+    }
+}
+@media (max-width: 700px) {
+    html #contactinfo{
+        display: flex;
+        flex-direction: column;
+    }
+    html #contactinfo div:first-child{
+        width: 100%;
+        height: 150px;
+    }
+    html #contactinfo > div:last-child{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 500px) {
+    html #freecodecamp{
+        width: calc(100% - 30px);
+    }
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#main{
+    width: 100%;
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#info{
+    margin-top: 150px;
+    text-align: center;
+}
+#name{
+    font-size: 100px;
+    color: rgb(118, 118, 118);
+}
+#goal{
+    font-size: 21px;
+    color: #525252;
+}
+#demonstration{
+    margin-top: 150px;
+    width: 90%;
+    position: relative;
+    height: 310px;
+}
+#demonstration > p{
+    color: #858585;
+    font-size: 23px;
+    cursor: default;
+}
+.projects{
+    margin-top: 10px;
+    width: calc(100% - 10px);
+}
+
+#arrowRight{
+    position: absolute;
+    left: calc(100% - 20px);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background: #00000026;
+    width: 20px;
+    cursor: pointer;
+    z-index: 10;
+}
+#habilities{
+    font-size: 16px;
+    color: #6c6c6c;
+    padding-top: 10px;
+    margin: 0px 10px 0px 10px;
+}
+#archivements{
+    margin-top: 50px;
+    width: 90%;
+    position: relative;
+}
+#archivements > p{
+    color: #858585;
+    font-size: 23px;
+    cursor: default;
+}
+#curses{
+    display: flex;
+    margin-top: 10px;
+}
+#freecodecamp{
+    width: 346px;
+    background-color: rgb(217 217 217);
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    margin-left: 15px;
+    cursor: default;
+}
+#freecodecamp > p:first-child{
+    font-size: 20px;
+    padding: 7px;
+}
+#freecodecamp > p:nth-child(2){
+    font-size: 14px;
+    padding: 0px 7px 0px 7px;
+}
+#freecodecamp > ul{
+    list-style-position: inside;
+    list-style-type: disc;
+    padding: 7px;
+}
+#freecodecamp > ul li{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+#freecodecamp > ul li span{
+    position: relative;
+    left: -10px;
+}
+#freecodecamp > ul li span a{
+    color: black;
+    text-decoration: none;
+}
+#contact{
+    margin-top: 50px;
+    width: 90%;
+    position: relative;
+    margin-bottom: 50px;
+}
+#contact > p{
+    color: #858585;
+    font-size: 23px;
+    cursor: default;
+}
+#contactinfo{
+    background-color: rgb(217 217 217);
+    display: flex;
+    margin: 10px 15px 0px 15px;
+}
+#contactinfo div:first-child{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contactinfo div:first-child button{
+    width: 250px;
+    height: 40px;
+    background-color: #6c6c6c;
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+    color: #242424;
+    box-shadow: 2px 2px 3px 1px #00000033;
+}
+#contactinfo div:first-child button:hover{
+    background-color: #5e5e5e;
+}
+#contactinfo div:last-child p:nth-child(1){
+    font-size: 28px;
+    margin-top: 10px;
+}
+#contactinfo div:last-child p:nth-child(2){
+    font-size: 16px;
+    margin-top: 5px;
+}
+#contactinfo div:last-child p:nth-child(3){
+    font-size: 16px;
+    margin-top: 20px;
+    color: #626262;
+}
+#contactinfo div:last-child div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#contactinfo div:last-child div svg{
+    cursor: pointer;
+    margin-right: 5px;
+}

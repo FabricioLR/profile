@@ -1,0 +1,72 @@
+.project{
+    min-width: 300px;
+    height: 250px;
+    background-color: rgb(217 217 217);
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    margin-left: 15px;
+    cursor: default;
+}
+::selection{
+    background: rgba(0, 0, 0, 0.139);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+}
+.header > div:last-child{
+    display: flex;
+    align-items: center;
+}
+.github{
+    margin-right: 5px;
+    cursor: pointer;
+}
+.externalLink{
+    cursor: pointer;
+}
+.title{
+    font-size: 20px;
+}
+.description{
+    padding: 0px 7px 0px 7px;
+    font-size: 14px;
+}
+.resources{
+    padding: 5px 7px 0px 7px;
+}
+.resources > ul{
+    list-style-position: inside;
+    list-style-type: square;
+}
+.resources > ul li{
+    font-size: 16px;
+}
+.resources > ul li span{
+    position: relative;
+    left: -10px;
+}
+.backEndDescripttion{
+    padding: 10px 7px 0px 7px;
+    font-size: 15px;
+    height: 40px;
+    position: absolute;
+    top: calc(100% - 50px - 40px);
+}
+.backEndDescripttion a{
+    color: black;
+}
+.tecnologies{
+    height: 40px;
+    position: absolute;
+    top: calc(100% - 40px);
+    padding: 0px 7px 0px 7px;
+    display: flex;
+    align-items: center;
+}
+.tecnology{
+    padding-right: 10px;
+}
