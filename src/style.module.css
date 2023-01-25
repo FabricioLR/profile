@@ -23,6 +23,20 @@
     html #freecodecamp{
         width: calc(100% - 30px);
     }
+    html #name{
+        font-size: 95px;
+        color: rgb(118, 118, 118);
+    }
+    html #goal{
+        font-size: 19px;
+        color: #525252;
+    }
+    html #habilities{
+        font-size: 15px;
+        color: #6c6c6c;
+        padding-top: 10px;
+        margin: 0px 10px 0px 10px;
+    }
 }
 
 *{
