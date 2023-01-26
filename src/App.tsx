@@ -123,11 +123,11 @@ function App() {
             <p>Free Code Camp</p>
             <p>Organização sem fins lucrativos que oferece cursos gratuitos em sua plataforma web. O mais completo bootcamp online.</p>
             <ul>
-              <li><span><a href="">Responsive Web Design</a></span></li>
-              <li><span><a href="">JavaScript Algorithms</a></span></li>
-              <li><span><a href="">Back End Development and APIs</a></span></li>
-              <li><span><a href="">Front End Development Libraries</a></span></li>
-              <li><span><a href="">Quality Assurance</a></span></li>
+              <li><span><a href="https://www.freecodecamp.org/certification/Fabricio-Longo-de-Araujo/javascript-algorithms-and-data-structures">JavaScript Algorithms</a></span></li>
+              <li><span><a href="https://www.freecodecamp.org/certification/Fabricio-Longo-de-Araujo/back-end-development-and-apis">Back End Development and APIs</a></span></li>
+              <li><span><a href="https://www.freecodecamp.org/certification/Fabricio-Longo-de-Araujo/responsive-web-design">Responsive Web Design</a></span></li>
+              <li><span><a href="https://www.freecodecamp.org/certification/Fabricio-Longo-de-Araujo/front-end-development-libraries">Front End Development Libraries</a></span></li>
+              <li><span><a href="">Quality Assurance-Solving</a></span></li>
             </ul>
           </div>
         </div>
